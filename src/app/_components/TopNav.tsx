@@ -5,6 +5,7 @@ import {
   SignedOut,
   UserButton,
 } from "@clerk/clerk-react";
+import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { UploadButton } from "~/utils/uploadthing";
 
@@ -14,7 +15,9 @@ export default function TopNav() {
   return (
     <>
       <nav className="flex w-full items-center justify-between border-b p-4 text-xl font-semibold">
-        <div>Gallery</div>
+        <Link href="/">
+          <div>Gallery</div>
+        </Link>
         <div className="flex flex-row">
           <SignedOut>
             <SignInButton />
