@@ -15,7 +15,6 @@
     "@clerk/nextjs": "^5.0.8",
     "@radix-ui/react-slot": "^1.0.2",
     "@radix-ui/react-toast": "^1.1.5",
-    "@sentry/nextjs": "^8.0.0",
     "@t3-oss/env-nextjs": "^0.10.1",
     "@uploadthing/react": "^6.5.4",
     "@upstash/ratelimit": "^1.1.3",
