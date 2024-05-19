@@ -5,12 +5,9 @@ export default async function PhotoPage({
 }: {
   params: { id: string };
 }) {
-  const idAsNumber = Number(photoId);
-  if (Number.isNaN(idAsNumber)) throw new Error("Invalid photo id");
-
   return (
     <div>
-      <FullPageImageView photoId={idAsNumber} />
+      <FullPageImageView photoId={photoId} />
     </div>
   );
 }
